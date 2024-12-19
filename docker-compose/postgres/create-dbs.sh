@@ -9,7 +9,7 @@ psql -v ON_ERROR_STOP=1 --username postgres -d template1 <<SQL
 SQL
 
 for environment in production; do
-  psql -v ON_ERROR_STOP=1 --username postgres <<SQL
+  psql -v ON_ERROR_STOP=1 --username canvas <<SQL
     CREATE DATABASE canvas_${environment};
 SQL
 done
