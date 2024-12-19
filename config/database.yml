@@ -4,6 +4,6 @@ production:
   database: canvas_production
   host: postgres
   username: canvas_idk
-  password: your_password
+  password: sekret
   timeout: 5000
 #testing
