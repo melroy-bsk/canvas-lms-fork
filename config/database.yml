@@ -3,7 +3,7 @@ production:
   encoding: utf8
   database: canvas_production
   host: postgres
-  username: canvas_idk
+  username: canvas
   password: sekret
   timeout: 5000
 #testing
