@@ -26,5 +26,5 @@ production:
   database: canvas_production
   host: postgres
   username: canvas
-  password: sekret
+  password: your_password
   timeout: 5000
