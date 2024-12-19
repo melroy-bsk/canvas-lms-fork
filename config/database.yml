@@ -24,7 +24,7 @@ production:
   adapter: postgresql
   encoding: utf8
   database: canvas_production
-  host: localhost
+  host: postgres
   username: canvas
-  password: your_password
+  password: sekret
   timeout: 5000
