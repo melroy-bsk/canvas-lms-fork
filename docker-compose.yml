@@ -3,7 +3,7 @@ services:
   web: &WEB
     build:
       context: .
-      dockerfile: Dockerfile.Production
+      dockerfile: Dockerfile.production
     links:
       - postgres
       - redis
