@@ -13,7 +13,7 @@ psql -v ON_ERROR_STOP=1 --username postgres <<SQL
   CREATE ROLE canvas WITH LOGIN PASSWORD 'your_password';
 SQL
 
-for environment in test development production; do
+for environment in production; do
   psql -v ON_ERROR_STOP=1 --username postgres <<SQL
     CREATE DATABASE canvas_${environment};
 SQL
